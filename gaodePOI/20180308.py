@@ -108,7 +108,7 @@ for item in n:
     locs_to_use = loc.ls_row()
     for loc_to_use in locs_to_use:
 
-        api_key = "27bba122d4a0ab2c782e8e4790bcf66a"
+        api_key = ""
         arcpy.AddMessage(loc_to_use)
         par = GaoDePOI(api_key, cate, loc_to_use)            #请修改这里的参数
         a = par.baidu_search()
