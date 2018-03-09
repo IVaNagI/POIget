@@ -8,7 +8,7 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 urls = []
 for page in range(0,20):
-    url = 'http://api.map.baidu.com/place/v2/search?query=公园&region=224&coord_type=gcj02ll&page_size=20&page_num=' + str(page) + '&output=json&ak=id6STZSbOsnWkkMiMy08rDQMKiOejhTD'
+    url = 'http://api.map.baidu.com/place/v2/search?query=公园&region=224&coord_type=gcj02ll&page_size=20&page_num=' + str(page) + '&output=json&ak=D'
     urls.append(url)
 # print urls
 
