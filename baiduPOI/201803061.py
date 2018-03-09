@@ -92,7 +92,7 @@ class LocaDiv(object):
 
 
 if __name__ == '__main__':
-    baidu_api = 'id6STZSbOsnWkkMiMy08rDQMKiOejhTD'  # 这里填入你的百度API
+    baidu_api = 'D'  # 这里填入你的百度API
     print("开始爬数据，请稍等...")
     start_time = time.time()
     loc = LocaDiv('31.240121,120.671538,31.432176,120.854761', 0.05)
