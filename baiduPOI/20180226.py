@@ -5,7 +5,7 @@ import pandas as pd
 
 def request_hospital_data():
     ak="xxxxxxxxxxx"  # 换成自己的 AK，需要申请
-    url = "http://api.map.baidu.com/place/v2/search?query=医疗&page_size=20&scope=1&region=辽中&output=json&ak=nGZYF0imNDGQDyDWgCdcDKaBho79SC6v"
+    url = "http://api.map.baidu.com/place/v2/search?query=医疗&page_size=20&scope=1&region=辽中&output=json&ak="
     params = {'page_num':0}  # 请求参数，页码
     request = requests.get(url,params=params)  # 请求数据
     total = json.loads(request.text)['total']  # 数据的总条数
